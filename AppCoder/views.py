@@ -14,7 +14,7 @@ def inicio(request):
     return render(request, 'AppCoder/inicio.html')
 
 def profesores(request):
-    return HttpResponse("Esta es la página de profesores")
+    return render(request, 'AppCoder/profesores.html')
 
 def estudiantes(request):
     return HttpResponse("Esta es la página de estudiantes")
